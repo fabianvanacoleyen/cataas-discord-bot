@@ -1,2 +1,0 @@
-[replace w\ discord bot token]
-  (under: bot >> reset token)
