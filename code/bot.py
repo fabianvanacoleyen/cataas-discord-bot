@@ -9,7 +9,7 @@ bot = commands.Bot(command_prefix="$", intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f'We zijn ingelogd als {bot.user}')
+    print(f'we succesfully logged in as {bot.user}')
 
 @bot.event
 async def on_message(message):
